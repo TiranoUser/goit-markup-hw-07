@@ -172,9 +172,9 @@ img {
   justify-content: center;
 }
 
-.contacts_email {
-  /* margin-right: 40px; */
-}
+/* .contacts_email {
+  margin-right: 40px;
+} */
 
 .contacts-link {
   color: var(--slate-text-color);
@@ -241,7 +241,7 @@ img {
   overflow: auto;
 }
 
-.mob-menu-nav {}
+/* .mob-menu-nav {} */
 
 .mob-menu-list {
   display: flex;
@@ -250,7 +250,7 @@ img {
   margin-bottom: 84px;
 }
 
-.mob-menu-nav-right {}
+/* .mob-menu-nav-right {} */
 
 .mob-menu-link {
   font-style: normal;
@@ -270,8 +270,6 @@ img {
 .mob-menu-link:focus {
   color: var(--ocean-color)
 }
-
-.menu-current {}
 
 .mob-menu-contacts {
   display: flex;
@@ -301,9 +299,9 @@ img {
   color: #434455;
 }
 
-.mob-menu-contacts-link {}
+/* .mob-menu-contacts-link {} */
 
-.mob-menu-soc-icons-list {}
+/* .mob-menu-soc-icons-list {} */
 
 .mob-menu-soc-icons-items {
   display: flex;
@@ -356,6 +354,14 @@ img {
   background-size: cover;
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .promo {
+    background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/promo-mobil-2x.jpg);
+  }
+}
+
 .promo__title {
   font-weight: 700;
   width: 330px;
@@ -406,10 +412,10 @@ img {
   gap: 72px;
 }
 
-.benefits__card {
-  /* width: calc((100% - 72px) / 4); */
-  /* flex-basis: calc((100% - 3 * 24px) / 4); */
-}
+/* .benefits__card {
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
+} */
 
 .benefits-icon {
   /* display: none; */
@@ -469,9 +475,9 @@ img {
   justify-content: center;
 }
 
-.presentation_item {
-  /* width: calc((100% - 48px) / 3); */
-}
+/* .presentation_item {
+  width: calc((100% - 48px) / 3);
+} */
 
 .team {
   background: var(--cloud-color);
@@ -976,7 +982,7 @@ img {
   margin-bottom: 14px;
 }
 
-.modal-form {}
+/* .modal-form {} */
 
 .modal-label {
   display: block;
@@ -1061,9 +1067,9 @@ img {
   outline: transparent;
 }
 
-.modal-privacy {}
+/* .modal-privacy {} */
 
-.modal-privacy-checkbox {}
+/* .modal-privacy-checkbox {} */
 
 .modal-privacy-checkbox:checked+.modal-privacy-text::before {
   background-color: var(--ocean-color);
@@ -1094,7 +1100,7 @@ img {
   margin-bottom: 24px;
 }
 
-.modal-privacy-link {}
+/* .modal-privacy-link {} */
 
 .modal-btn {
 
