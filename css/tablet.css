@@ -1,0 +1,73 @@
+@media screen and (min-width:768px) {
+    .container {
+        width: 768px;
+    }
+
+    .mob-menu {
+        display: none;
+    }
+
+    .menu-open {
+        display: none;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .contacts {
+        display: flex;
+    }
+
+    .promo {
+        max-width: 768px;
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/promo-tablet.jpg);
+    }
+
+
+    .promo__title {
+        font-weight: 700;
+        width: 510px;
+        font-size: 56px;
+        line-height: calc(60 / 56);
+        letter-spacing: 0.02em;
+        color: var(--white-color);
+        margin: 0 auto 40px;
+    }
+
+    .benefits-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+        justify-content: center;
+    }
+
+    .benefits__card {
+        width: 356px;
+        /* flex-basis: calc((100% - 3 * 24px) / 4); */
+    }
+
+    .benefits__title {
+        text-align: left;
+    }
+
+    .team {
+        padding-bottom: 104px;
+    }
+
+    .team__list {
+        gap: 64px 24px;
+    }
+
+    .footer-wrapper {
+        column-gap: 24px;
+    }
+
+    .footer-e-mail {
+        gap: 24px;
+    }
+
+    .footer-e-mail-input {
+        width: 296px;
+    }
+}

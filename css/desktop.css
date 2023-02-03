@@ -1,0 +1,91 @@
+@media screen and (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
+
+    .header-link {
+        margin-left: 156px;
+    }
+
+    .contacts {
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        margin-right: 156px;
+    }
+
+    .promo {
+        max-width: 1200px;
+        padding-top: 190px;
+        padding-bottom: 190px;
+        background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/promo-desktop.jpg);
+    }
+
+    .promo__title {
+        margin: 0 auto 64px;
+    }
+
+    .benefits {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .benefits-icon {
+        width: 264px;
+        height: 112px;
+        margin-bottom: 8px;
+    }
+
+    .benefits-svg {
+        display: block;
+    }
+
+    .benefits__card {
+        width: 264px;
+    }
+
+    .presentation {
+        display: block;
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .customers-link {
+        width: 181px;
+    }
+
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-wrapper {
+        column-gap: 80px;
+    }
+
+    .footer-text {
+        margin-right: 40px;
+    }
+
+    .footer-text-link {
+        justify-content: flex-start;
+    }
+
+    .footer-social-title,
+    .footer-e-mail-title {
+        text-align: left;
+    }
+
+    .footer-e-mail-input {
+        width: 264px;
+    }
+}

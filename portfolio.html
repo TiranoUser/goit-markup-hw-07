@@ -13,6 +13,9 @@
     rel="stylesheet" />
   <link rel="stylesheet" href="./css/modern-normalize.min.css" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/mobile.css" />
+  <link rel="stylesheet" href="./css/tablet.css" />
+  <link rel="stylesheet" href="./css/desktop.css" />
   <title>Portfolio</title>
 </head>
 
@@ -27,10 +30,10 @@
       <nav class="menu">
         <ul class="menu-list">
           <li class="nav-right__menu li">
-            <a class="menu-link link" href="./index.html">Studio</a>
+            <a class="menu-link link menu-current" href="./index.html">Studio</a>
           </li>
           <li class="nav-right__menu li">
-            <a class="menu-link link menu-current" href="./portfolio.html">Portfolio</a>
+            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
           </li>
           <li class="nav-right__menu li">
             <a class="menu-link link" href="#">Contacts</a>
@@ -45,7 +48,80 @@
           <a class="contacts-link link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
         </li>
       </ul>
+      <button class="menu-open" type="button" data-menu-open>
+        <svg class="menu-open-icon" width="32px" height="22px">
+          <use href="./images/icons.svg#icon-menu"></use>
+        </svg>
+      </button>
     </div>
+
+    <!-- mob-menu -->
+    <div class="mob-menu is-hidden" data-menu>
+
+      <button type="button" class="mob-menu-close" data-menu-close>
+        <svg class="mob-menu-close-icon " width="8px" height="8px">
+          <use href="./images/icons.svg#icon-modal-close-icon"></use>
+        </svg>
+      </button>
+
+      <div class="container">
+        <div class="mob-menu-top">
+
+          <nav class="mob-menu-nav">
+            <ul class="mob-menu-list">
+              <li class="mob-menu-nav-right li">
+                <a class="mob-menu-link link menu-current" href="./index.html">Studio</a>
+              </li>
+              <li class="mob-menu-nav-right li">
+                <a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li class="mob-menu-nav-right li">
+                <a class="mob-menu-link link" href="#">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="mob-menu-bottom">
+          <ul class="mob-menu-contacts">
+            <li class="mob-menu-contacts_tel li">
+              <a class="mob-menu-contacts-link link" href="tel:+11(000)1111111">+11 (000) 111-11-11</a>
+            </li>
+            <li class="mob-menu-contacts_email li">
+              <a class="mob-menu-contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+
+          </ul>
+
+          <ul class="mob-menu-soc-icons-list">
+            <li class="mob-menu-soc-icons-items">
+              <a href="#" class="mob-menu-soc-icons-link">
+                <svg class="mob-menu-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+              <a href="#" class="mob-menu-soc-icons-link">
+                <svg class="mob-menu-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+              <a href="#" class="mob-menu-soc-icons-link">
+                <svg class="mob-menu-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+              <a href="#" class="mob-menu-soc-icons-link">
+                <svg class="mob-menu-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+    <!--end  mob-menu -->
   </header>
   <main class="main">
     <section class="portfolio">
