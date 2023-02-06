@@ -1,10 +1,10 @@
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1158px) {
     .container {
-        width: 1200px;
+        width: 1158px;
     }
 
     .header-link {
-        margin-left: 156px;
+        margin-right: 77px;
     }
 
     .contacts {
@@ -12,11 +12,15 @@
         flex-direction: row;
         justify-content: center;
         gap: 40px;
-        margin-right: 156px;
+        margin-left: auto;
+
+        font-size: 16px;
+        line-height: calc(24 / 16);
+        letter-spacing: 0.02em;
     }
 
     .promo {
-        max-width: 1200px;
+        max-width: 1440px;
         padding-top: 190px;
         padding-bottom: 190px;
         background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/promo-desktop.jpg);
@@ -49,6 +53,18 @@
         display: block;
     }
 
+    .benefits__title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        /* letter-spacing: 0.02em;
+        color: #2E2F42; */
+    }
+
+    .benefits__text {
+        font-weight: 400;
+    }
+
     .benefits__card {
         width: 264px;
     }
@@ -62,14 +78,24 @@
         padding-bottom: 120px;
     }
 
+    .team__item {
+        width: calc((100% - 72px) /4);
+    }
+
     .customers {
         padding-top: 120px;
         padding-bottom: 120px;
     }
 
     .customers-link {
-        width: 181px;
+        /* width: 181px; */
     }
+
+    .customers-item {
+        flex-basis: calc((100% - 120px)/6);
+
+    }
+
 
     .footer {
         padding-top: 100px;
@@ -77,15 +103,19 @@
     }
 
     .footer-wrapper {
-        column-gap: 80px;
+        column-gap: 0px;
     }
 
     .footer-text {
-        margin-right: 40px;
+        margin-right: 120px;
     }
 
     .footer-text-link {
         justify-content: flex-start;
+    }
+
+    .footer-social {
+        margin-right: auto;
     }
 
     .footer-social-title,
