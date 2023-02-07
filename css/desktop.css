@@ -73,6 +73,12 @@
         display: block;
     }
 
+    .team .container,
+    .customers .container,
+    .footer .container {
+        width: 1158px;
+    }
+
     .team {
         padding-top: 120px;
         padding-bottom: 120px;
