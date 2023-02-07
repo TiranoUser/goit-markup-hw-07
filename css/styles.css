@@ -143,9 +143,9 @@ img {
   color: var(--ocean-color)
 }
 
-/* .menu-current {
+.menu-current {
   color: var(--ocean-color)
-} */
+}
 
 /* .menu-current::after {
   position: absolute;
@@ -290,7 +290,11 @@ img {
   font-size: 36px;
   line-height: 40px;
   text-transform: capitalize;
-  /* color: #4D5AE5; */
+
+}
+
+.mob-menu-contacts_tel .mob-menu-contacts-link {
+  color: #4D5AE5;
 }
 
 .mob-menu-contacts_email {
@@ -304,16 +308,19 @@ img {
   color: #434455;
 }
 
-.mob-menu-contacts-link:hover,
+
+
+/* .mob-menu-contacts-link:hover,
 .mob-menu-contacts-link:focus {
   color: #4D5AE5;
-}
+} */
 
 /* .mob-menu-contacts-link {} */
 
 .mob-menu-soc-icons-list {
   display: flex;
-  gap: 21px;
+  gap: 52px;
+  flex-wrap: wrap;
 }
 
 
